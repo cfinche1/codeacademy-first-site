@@ -1,0 +1,55 @@
+div {
+    position: relative;
+}
+
+div::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-image:url("https://149360821.v2.pressablecdn.com/wp-content/uploads/2017/10/Cynthia-Doll.jpg");
+    opacity: 0.2;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    margin: 30px auto;
+    padding: 0 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    color: deeppink;
+}
+
+ul {
+   text-align: center;
+   list-style: inside;
+   font-weight: bold;
+}
+
+li {
+    color: green;
+    display: block;
+    margin-right: 10px;
+}
+
+a {
+    display: block;
+    text-align: center;
+    color:midnightblue;
+    font-weight: bold;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 50%;
+}
